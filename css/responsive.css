@@ -1,0 +1,441 @@
+/*-------------------------- 1nd media query-------------------------- */
+/* laptop */
+@media only screen and (max-width: 1024px) {
+  /* banner  */
+
+  .outer-car {
+    display:none;
+  }
+  .inner-banner {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .banner-txt li:last-child {
+    text-align: center;
+  }
+
+  .form-section {
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .table-header {
+    font-size: 18px;
+    padding: 4px 0 !important;
+  }
+
+  /* PACKING  VIDEOS */
+
+  .video-item {
+    flex-basis: 48%;
+    border-radius: 10px;
+  }
+
+  .video-item iframe {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .packing-youtube-video {
+    gap: 10px;
+  }
+
+  /* OUR CORE  SERVICES */
+
+  .cards-gallery .card {
+    border-radius: 6px;
+  }
+
+  .cards-gallery .card img {
+    border-radius: 6px 6px 0 0;
+  }
+
+  .cards-gallery .card .card-txt .card-head {
+    font-size: 23px;
+  }
+
+  .cards-gallery .card .card-txt {
+    padding-bottom: 60px;
+     padding-bottom: 40px;
+  }
+
+  .cards-gallery .card .card-txt p {
+    font-size: 17px;
+  }
+
+  .cards-gallery {
+    gap: 18px;
+  }
+
+  /* .why-gallery  */
+
+  .why-gallery .card {
+    flex-basis: 48%;
+  }
+
+  .why-sub-header p {
+    font-size: 18px;
+  }
+
+  .achievement-icon>li {
+    width: 90%;
+  }
+
+  .cards-gallery .card {
+    flex-basis: 47%;
+  }
+
+  .user-intro {
+    padding: 80px 100px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .user-img {
+    left: -60px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .user-img img {
+    width: 60px;
+  }
+
+  .user-name {
+    font-size: 15px;
+  }
+
+  /* list */
+
+  /*       HAPPY CUSTOMERS      */
+}
+
+/*-------------------------- 2nd media query -------------------------- */
+
+/* phone */
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+
+  .float-btn {
+    display: block;
+  }
+
+
+  .header-row {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .contact-num {
+    margin-left: auto;
+    padding: 10px 20px;
+  }
+
+  /* banner */
+  .banner-txt {
+    text-align: center;
+  }
+
+  .banner-txt li:first-child {
+    font-size: 25px;
+  }
+
+  .banner-txt li:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .banner-txt li:nth-child(3) {
+    font-size: 15px;
+  }
+
+  .text-field {
+    padding: 5px;
+  }
+
+   .submit {
+    padding: 10px !important;
+    
+  }
+
+
+
+  /* packing-youtube-video */
+
+  .packing-youtube-video {
+    flex-direction: column;
+  }
+
+  .video-item {
+    width: 90%;
+  }
+
+  /*  OUR CORE SERVICES */
+
+  .cards-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-gallery .card {
+    width: 90%;
+  }
+
+
+
+
+
+  .cards-gallery .card .card-txt .card-head {
+    font-size: 20px;
+  }
+
+  .cards-gallery .card .card-txt p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .achievement-icon {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .why-gallery  */
+
+  .why-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-gallery .card {
+    width: 90%;
+  }
+
+  .why-sub-header p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .inner-happy-customer {
+    margin-bottom: 160px;
+  }
+
+  .user-details {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .user-intro {
+    padding: 30px 55px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .user-img {
+    padding: 10px;
+    text-align: center;
+    top: 175px;
+    left: 32%;
+  }
+
+  .user-img img {
+    width: 50%;
+  }
+
+  /* clints */
+
+  .clints-name {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .clints-name>.clint-item {
+    width: 30%;
+  }
+
+  /* our branch */
+  .branch-gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .branch-gallery .card {
+    width: 90%;
+  }
+
+  .branch-gallery .inner-ul>li:nth-child(2) {
+    font-size: 25px;
+  }
+
+  .branch-gallery .inner-ul>li:last-child {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /*  */
+
+  .last-letter {
+    font-size: 20px;
+  }
+
+  .city-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .city-list ul>li {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .social-media {
+    flex-direction: column;
+  }
+}
+
+/*------------------------------- 3rd media query---------------------------------- */
+
+@media only screen and (max-width: 424px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+
+
+  .float-btn {
+    display: block;
+  }
+
+  .header-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .header-row .contact-num {
+    display: none;
+  }
+
+  .baner-form {
+    display: none;
+  }
+
+  .inner-banner {
+    text-align: center;
+  }
+
+  .banner-txt li:first-child {
+    font-size: 25px;
+  }
+
+  .banner-txt li:nth-child(2) {
+    font-size: 14px;
+  }
+
+
+  .banner-txt li:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .iso img,
+  .guarante img {
+    width: 100px;
+  }
+
+
+ 
+
+  .packing-youtube-video {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cards-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-gallery .card .card-txt p {
+    font-size: 14px;
+  }
+
+  .cards-gallery .card .card-txt .card-head {
+    font-size: 20px;
+  }
+
+ 
+  .why-gallery .card {
+    flex-basis: 98%;
+  }
+
+
+
+  .achievement-icon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .user-intro {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .user-img {
+    display: none;
+  }
+
+  .clints-name {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .clints-name>.clint-item {
+    width: 80%;
+    margin: auto;
+  }
+
+  .branch-gallery {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .branch-gallery .inner-ul>li:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .branch-gallery .inner-ul>li:last-child {
+    font-size: 16px;
+  }
+
+  .city-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .city-list ul {
+    margin: auto;
+  }
+
+  .social-media {
+    flex-direction: column;
+  }
+
+  .why-sub-header {
+    text-align: center;
+  }
+}
