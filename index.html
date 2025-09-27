@@ -19,15 +19,28 @@
 
 <body>
 
-  <div class="float-btn">
-    <div class="call-whatapp">
-      <button><i class="fas fa-phone-volume"></i>Call Now</button>
-      <button><i class="fab fa-whatsapp"></i>WhatsApp</button>
+
+
+
+  <div class="loader-section">
+    <span class="loader"></span>
+  </div>
+
+
+
+
+
+  <div class="page-content">
+    <div class="float-btn ">
+      <div class="call-whatapp">
+        <button><i class="fas fa-phone-volume"></i>Call Now</button>
+        <button><i class="fab fa-whatsapp"></i>WhatsApp</button>
+      </div>
     </div>
   </div>
 
 
-  <div class="outer-car">
+  <div class="outer-car page-content">
     <div class="mycar">
       <div class="car car-move">
         <img src="images/truck-1.png" alt="truck" class="truck">
@@ -41,7 +54,7 @@
   <!-- row1 -->
   <!-- <div class="container"> -->
 
-  <section class="outer-header">
+  <section class="outer-header page-content">
     <div class="header-row">
       <div class="logo">
         <img src="images/logo.png" alt="packshifts" title="packshifts" />
@@ -53,7 +66,7 @@
   </section>
 
   <!-- row2 -->
-  <div class="outerdiv-banner">
+  <div class="outerdiv-banner page-content">
     <div class="inner-banner">
       <div class="banner-txt">
         <ul>
@@ -136,7 +149,7 @@
   </div>
 
   <!-- row3 -->
-  <section class="outerdiv-packing">
+  <!-- <section class="outerdiv-packing page-content">
     <div class="inner-div-packing">
       <div class="packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -216,10 +229,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- row4 -->
-  <section class="outerdiv-service">
+  <section class="outerdiv-service page-content">
     <div class="inner-row-service">
       <div class="packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -261,7 +274,7 @@
               Experience.
             </p>
           </div>
-         <div class="card-link-parent">
+          <div class="card-link-parent">
             <a href="#" class="card-link">get quote</a>
           </div>
         </div>
@@ -278,7 +291,7 @@
               For Vehicle Moving.
             </p>
           </div>
-         <div class="card-link-parent">
+          <div class="card-link-parent">
             <a href="#" class="card-link">get quote</a>
           </div>
         </div>
@@ -296,7 +309,7 @@
               Will Provide You With High-Quality Relocation Services.
             </p>
           </div>
-         <div class="card-link-parent">
+          <div class="card-link-parent">
             <a href="#" class="card-link">get quote</a>
           </div>
         </div>
@@ -305,7 +318,7 @@
   </section>
 
   <!-- row5 -->
-  <section class="outerdiv-why">
+  <section class="outerdiv-why page-content">
     <div class="inner-row-why">
       <div class="why-header packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -382,7 +395,7 @@
 
   <!-- row6 -->
 
-  <section class="outerdiv-achievement">
+  <section class="outerdiv-achievement page-content">
     <div class="inner-achievement">
       <div class="our-achievement packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -451,7 +464,7 @@
   </section>
 
   <!-- row7 -->
-  <section class="outerdiv-happy-customer">
+  <section class="outerdiv-happy-customer page-content">
     <div class="inner-happy-customer">
       <div class="happy-customer packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -474,7 +487,7 @@
   </section>
 
   <!-- row8 -->
-  <section class="outerdiv-our-clints">
+  <section class="outerdiv-our-clints page-content">
     <div class="inner-our-clints">
       <div class="our-clints packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -497,7 +510,7 @@
   </section>
 
   <!-- row 9 -->
-  <section class="outerdiv-why our-branch">
+  <section class="outerdiv-why our-branch page-content">
     <div class="inner-row-why inner-our-branch">
       <div class="our-branch packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -545,7 +558,7 @@
 
   <!-- row 10 -->
 
-  <section class="outerdiv-movers">
+  <section class="outerdiv-movers page-content">
     <div class="inner-movers">
       <div class="packing-header">
         <i class="fa-solid fa-location-dot"></i>
@@ -680,7 +693,7 @@
 
   <!-- row10 -->
 
-  <footer class="outerdiv-footer">
+  <footer class="outerdiv-footer page-content">
     <div class="inner-div-footer">
       <div class="social-media">
         <div class="s-icon">
@@ -700,5 +713,38 @@
 
   <!-- <div class="btn"><i class="fa-sharp fa-solid fa-arrow-up "></i></div> -->
 </body>
+<script>
+
+
+
+  window.addEventListener('load', function () {
+    console.log('Page is fully loaded!');
+
+    //Hide loading
+    loading = document.querySelector('.loader-section').style.display = 'none';
+
+
+    // show content
+    let data = document.querySelectorAll('.page-content');
+    data.forEach(item => {
+      item.style.display = 'block';
+    });
+
+
+
+  })
+
+
+
+
+  document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+  })
+
+
+
+
+
+</script>
 
 </html>

@@ -438,4 +438,16 @@
   .why-sub-header {
     text-align: center;
   }
+
+
+
+  .outerdiv-footer {
+    margin-bottom:50px;
+  }
+  .inner-div-footer .rights p{
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-size:14px;
+  }
 }
